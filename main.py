@@ -2,6 +2,8 @@ from tkinter import *
 import random
 
 
+names=[]
+
 
 class QuizBegin:
     def __init__(self, parent):#constructor, The __init__() function is called automatically every time the class is being used to create a new object.
@@ -43,3 +45,4 @@ class QuizBegin:
 
     quiz_instance = QuizBegin(root) #instantiation, making an instance of the class Quiz
     root.mainloop()#so the frame doesnt dissapear
+    
